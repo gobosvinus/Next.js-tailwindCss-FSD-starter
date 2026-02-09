@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  devIndicators: false,
+
   // Конфиг для SVGR который сохраняет viewBox of the svg
   turbopack: {
     rules: {
