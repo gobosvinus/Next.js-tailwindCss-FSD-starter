@@ -2,6 +2,8 @@
 const config = {
   plugins: ["prettier-plugin-tailwindcss"],
   tailwindStylesheet: "./src/app/globals.css",
+  tailwindFunctions: ["cn", "clsx", "twMerge"],
+  tailwindAttributes: ["className", "/.*ClassName$/"],
 };
 
 export default config;
