@@ -1,0 +1,7 @@
+.next/
+out/
+build/
+dist/
+coverage/
+bun.lock
+next-env.d.ts

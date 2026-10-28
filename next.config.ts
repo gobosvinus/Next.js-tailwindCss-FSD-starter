@@ -4,8 +4,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   devIndicators: false,
 
-  // Конфиг для SVGR который сохраняет viewBox of the svg
   turbopack: {
+    root: __dirname,
+    // Импорты SVG преобразуются в React-компоненты с размерами 1em.
     rules: {
       "*.svg": {
         loaders: [
